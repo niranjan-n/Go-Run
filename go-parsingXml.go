@@ -25,7 +25,8 @@ func main() {
 
 	var s SiteMapIndex
 	xml.Unmarshal(bytes, &s)
-	//fmt.Println(s.Locations)
+
+	fmt.Println(s.Locations)
 
 	//for-loop
 	for _, Location := range s.Locations {
