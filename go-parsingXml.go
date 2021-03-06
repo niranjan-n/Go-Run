@@ -28,8 +28,8 @@ func main() {
 	//fmt.Println(s.Locations)
 
 	//for-loop
-	for _, location := range s.Locations {
-		fmt.Printf("\n %s", location)
+	for _, Location := range s.Locations {
+		fmt.Printf("\n %s", Location)
 	}
 
 }
