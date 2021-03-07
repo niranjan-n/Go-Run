@@ -13,4 +13,5 @@ func main() {
 	stringBody := string(bytes)
 	fmt.Println("Body :", stringBody)
 	resp.Body.Close()
+
 }
